@@ -74,7 +74,7 @@ class App extends React.Component {
     }
   }
   else{
-    const api_call = await fetch(`https://thingproxy.freeboard.io/fetch/http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=c0d573b18729da9019711dcbacf8458d`);
+    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=c0d573b18729da9019711dcbacf8458d`);
     const data = await api_call.json();
     if(city) 
     {
