@@ -9,25 +9,25 @@ const Weather5days = props => (
 		<p className="weather__key">
 		{ weather.date }&nbsp;&nbsp;&nbsp;&nbsp;{ weather.temperature }°C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ weather.description } 
 		{	
-	 	 weather.icon==="Snow" && <img className="weather__icon_2" src={require('../img/Snow.png')}></img>
+	 	 weather.icon==="Snow" && <img className="weather__icon_2" alt="Icon" src={require('../img/Snow.png')}></img>
 	 	}
 		{	
-	 	 weather.icon==="Clouds" && <img className="weather__icon_2" src={require('../img/Clouds.png')}></img>
+	 	 weather.icon==="Clouds" && <img className="weather__icon_2" alt="Icon" src={require('../img/Clouds.png')}></img>
 		}
 		{	
-			weather.icon==="Drizzle" && <img className="weather__icon_2" src={require('../img/Drizzle.png')}></img>
+			weather.icon==="Drizzle" && <img className="weather__icon_2" alt="Icon" src={require('../img/Drizzle.png')}></img>
 		}
 		{	
-			weather.icon==="Haze" && <img className="weather__icon_2" src={require('../img/Haze.png')}></img>
+			weather.icon==="Haze" && <img className="weather__icon_2" alt="Icon" src={require('../img/Haze.png')}></img>
 		}
 		{	
-			weather.icon==="Rain" && <img  className="weather__icon_2" src={require('../img/Rain.png')}></img>
+			weather.icon==="Rain" && <img  className="weather__icon_2" alt="Icon" src={require('../img/Rain.png')}></img>
 		}
 		{	
-			weather.icon==="Thunderstorm" && <img  className="weather__icon_2" src={require('../img/Snow.png')}></img>
+			weather.icon==="Thunderstorm" && <img  className="weather__icon_2" alt="Icon" src={require('../img/Snow.png')}></img>
 		}
 		{	
-			weather.icon==="Clear" && <img  className="weather__icon_2" src={require('../img/Clear.png')}></img>
+			weather.icon==="Clear" && <img  className="weather__icon_2" alt="Icon" src={require('../img/Clear.png')}></img>
 		}
 	</p>
 	

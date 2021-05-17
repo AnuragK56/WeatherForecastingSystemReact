@@ -3,25 +3,25 @@ import React from "react";
 const Weather = props => (
 	<div className="weather__info">
 		{	
-	 	 props.icon==="Snow" && <img className="weather__icon" src={require('../img/Snow.png')}></img>
+	 	 props.icon==="Snow" && <img className="weather__icon" alt="Icon" src={require('../img/Snow.png')}></img>
 	 	}
 		{	
-	 	 props.icon==="Clouds" && <img className="weather__icon" src={require('../img/Clouds.png')}></img>
+	 	 props.icon==="Clouds" && <img className="weather__icon" alt="Icon" src={require('../img/Clouds.png')}></img>
 		}
 		{	
-			props.icon==="Drizzle" && <img className="weather__icon" src={require('../img/Drizzle.png')}></img>
+			props.icon==="Drizzle" && <img className="weather__icon" alt="Icon" src={require('../img/Drizzle.png')}></img>
 		}
 		{	
-			props.icon==="Haze" && <img className="weather__icon" src={require('../img/Haze.png')}></img>
+			props.icon==="Haze" && <img className="weather__icon" alt="Icon" src={require('../img/Haze.png')}></img>
 		}
 		{	
-			props.icon==="Rain" && <img  className="weather__icon" src={require('../img/Rain.png')}></img>
+			props.icon==="Rain" && <img  className="weather__icon" alt="Icon" src={require('../img/Rain.png')}></img>
 		}
 		{	
-			props.icon==="Thunderstorm" && <img  className="weather__icon" src={require('../img/Snow.png')}></img>
+			props.icon==="Thunderstorm" && <img  className="weather__icon" alt="Icon" src={require('../img/Snow.png')}></img>
 		}
 		{	
-			props.icon==="Clear" && <img  className="weather__icon" src={require('../img/Clear.png')}></img>
+			props.icon==="Clear" && <img  className="weather__icon" alt="Icon" src={require('../img/Clear.png')}></img>
 		}
 	 {	
 	 	props.city && props.country && <p className="weather__key"> Location: 
