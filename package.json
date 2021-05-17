@@ -2,6 +2,7 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://thingproxy.freeboard.io",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "3.3.7",
@@ -9,6 +10,7 @@
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
