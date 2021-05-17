@@ -5,7 +5,7 @@ const Weather5days = props => (
 		<p className="weather__key"> Date &nbsp;&nbsp;&nbsp;&nbsp;Temperature &nbsp;&nbsp;&nbsp;&nbsp; Conditions <span></span></p>
 
 		{ props.report5days && props.report5days.map((weather)=>(
-		<div>
+		<div key={weather.date}>
 		<p className="weather__key">
 		{ weather.date }&nbsp;&nbsp;&nbsp;&nbsp;{ weather.temperature }°C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ weather.description } 
 		{	
